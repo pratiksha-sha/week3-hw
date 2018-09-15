@@ -1,0 +1,196 @@
+/*...................header..................*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    padding:0;
+    margin:0;
+}
+.container{
+    background-color: rgb(190, 227, 248);
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    flex-wrap: wrap;
+    position: fixed;
+   
+}
+.grid-items{  
+    display: inline-block;
+    padding-bottom:5px;
+    color:white;
+    font-size: 25px;
+}
+ 
+.grid-items:nth-last-child(3){
+    padding-top:30px;
+    width:20%;
+    padding-left:40px;
+    
+}
+.grid-items:nth-child(2){
+    width:20%;
+    padding-top:20px;
+    padding-left:30px;
+}
+.grid-items:nth-child(4){
+    padding-left:30px;
+}
+
+li{
+  list-style-type: none;  
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+img{
+    width:150px;
+    padding-left: 50px;
+}
+
+
+
+/*..........select......................*/
+
+.choose select{
+    appearance: none;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+  }
+  /*...................slideshow...................*/
+  #slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+    padding-top: 187px;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+  
+  .slide:nth-child(1) {
+    background:url("http://i38.photobucket.com/albums/e144/pratiksha-sha/2013-04-29-RTA2006_IntrepidTravel_OverallJointWinner_NepalGirlsDanielleColvin_zpslvu3j1dv.jpg");
+    
+  }
+  
+  .slide:nth-child(2) {
+    background: url("http://i38.photobucket.com/albums/e144/pratiksha-sha/ThisBarSavesLives_zps5tjuamvo.jpg");
+}
+    
+  .slide:nth-child(3) {
+    background: url("http://i38.photobucket.com/albums/e144/pratiksha-sha/nepalese-child_zpsb2akczoq.jpg");
+  }
+  .slide:nth-child(4){
+    background: url("http://i38.photobucket.com/albums/e144/pratiksha-sha/plumpy-nut1_zps2tmbvcu6.jpg");
+  }
+  .slide-number1, .slide-number4{
+    color: white;
+    text-align:left;
+    font-size: 2.5em;
+    line-height: 1em;
+    padding-top: 20px;
+    padding-left:10px;
+    font-family:"Cocogoose-Pro-Demi-Bold-TTF","Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
+  }
+  .slide-number2{
+      color:black;
+      font-size:2.5em;
+      padding-top:20px;
+      line-height: 1em;
+  }
+  .slide-number3{
+    color: white;
+    text-align:left;
+    font-size: 2.5em;
+    line-height: 1em;
+    padding-top:400px;  
+  }
+
+
+  @keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }
+
+/*...............mid section.................*/
+  h1{
+    color:white;
+    text-align: left;
+    font-size:16px;
+    padding-top:20px;
+    font-family:garamond;
+    
+}
+.mid-section{
+    background-color:rgb(230, 99, 121);
+    height:80px;
+    font-size:25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*..............section..................*/
+.cause{
+    width:25%;
+    padding-bottom:20px;
+}
+section p{
+    font-size:30px;
+    text-align: center;
+    font-style: bold;
+}
+.buyit{
+    padding-top: 20px;
+}
+
+/*..................footer.............*/
+.foot-er{
+    background-color: rgb(190, 227, 248);
+    display:flex;
+    flex-direction:row;
+}
+.elements img{
+    padding-top:0px;
+}
+.elements{
+    width:20%;
+    padding-top:30px;
+}
+
+li{
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 1.5em;
+    padding-top: 10px;
+}
+h3,h4,h2{
+    font-size: 20px;
+
+}
+.elements p{
+    line-height: 1.5em;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+input{
+    padding:5px;
+    height:25px;
+    width:250px;
+}
